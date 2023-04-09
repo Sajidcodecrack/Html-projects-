@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Form</title>
+</head>
+   <header>
+        <h1><pre>          ********** S-TECH **********        </pre></h1>
+        <h2><pre>  ---------------- Welcome to S-Tech managment system </pre></h2>
+        <h2><pre>  -------------------------Payment Information----------------------</pre></h2>
+    </header>
+   <main>
+      <form action="/Action.php">
+        <h1><pre>  Payment-Form </pre></h1>
+        <h2><pre> Contact-Information </pre>
+         <P><pre> Name : <input type="text" name="Enter your name " required></pre></P> 
+         
+         <fieldset>
+            <legend><p><b> Choose your gender  </b></p></legend>
+         <label for="101">
+          <input type="radio" value="Male" name="Gender" id="101" required >Male
+        </label>
+        <br>
+          <label for="102">
+            <input type="radio" value="Female" name="Gender" id="102" required>Female
+          </label>
+          <br>
+             <label for="103">
+                 <input type="radio" value="Others" name="Gender" id="103" required>Others
+             </label>
+             </fieldset>
+             <br>
+            <fieldset>
+                <legend>Select your Country </legend>
+                 <select name="Country" required>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Australia">Australia</option>
+                    <option value="India">India</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="United States America">United States America</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Srilanka">Srilanka</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Netherland">Netherland</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="France">France</option>
+                    <option value="England">England</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Saudi-Arabia">Saudi-Arabia</option>
+                    <option value="Italy">Italy</option>
+                 </select> 
+                    
+
+            </fieldset>
+             <br>
+                 <p>Address: 
+                <textarea name="Address" id="201" rows="3" cols="50" placeholder="Enter your address" required>Address</textarea></p>
+                  <br>
+                  <p>Email: <input type="email" name="email" id="301" placeholder="Enter your email address" required>
+                    <br>
+                    <p>Password :  <input type="password" placeholder="Enter your password " required> </p>  
+        </h2>
+              <h1><pre> ***** Payment-Information ***** </pre></h1>
+               <h2><pre> Card type  </pre>
+                 <select name="card_type" id="444" required>
+                    <option value="">Select a card type</option>
+                    <option value="VISA">Visa</option>
+                    <option value="American Express">American Express</option>
+                    <option value="Nexuspay">Nexuspay</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="Paypal">Paypal</option>
+                    <option value="Bkas">Bkas</option>
+                 </select>
+                   <p>
+                    Card Number :<input type="number" name="card_number" id="555" required>
+                   </p>
+                      <p>
+                        Expiration Date: <input type="date" name="expiration date" id="666" required>
+                      </p>
+                        <p>
+                            CVV:<input type="password" name="CVV" id="777" required>
+                        </p>
+                        <br>
+                        <input type="Submit" value="Paynow" required>
+                </h2>
+      </form>
+   </main>
+   <footer>
+
+   </footer>
+<body>
+    
+</body>
+</html>

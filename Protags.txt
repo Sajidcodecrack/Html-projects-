@@ -1,0 +1,14 @@
+      New Html tags for optimize html code 
+
+
+  1-> Field set: use to create box 
+
+  2-> <legend>: Use to wrap something with text in the box 
+  
+  3-> Input type <email> : Work like a email version in html5
+  
+  4-> Input type=<number> : Will have a option to +- number
+  
+  5-> Input type=<date> : will show the user with a calender 
+
+  

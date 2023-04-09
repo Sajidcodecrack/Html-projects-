@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FlappyBird",
+            "request": "launch",
+            "mainClass": "FlappyBird",
+            "projectName": "WebProgramming_75372bbe"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
